@@ -2,7 +2,7 @@ import loadImage from 'blueimp-load-image';
 import {Tensor, InferenceSession} from 'onnxjs';
 import ndarray from 'ndarray';
 import ops from 'ndarray-ops';
-import resnet from '../chili-resnet18-quantized.onnx';
+import resnet from '../chili-resnet18.onnx';
 
 export const getBreed = className => className.split('_').map(p => {
     return p.charAt(0).toUpperCase() + p.slice(1)
@@ -24,7 +24,7 @@ export const makeSession = (() => {
 })()
 
 async function warmupModel (session) {
-    const dims = [1, 3, 299, 299];
+    const dims = [1, 3, 224, 224];
     const size = dims.reduce((a, b) => a * b);
     const warmupTensor = new Tensor(new Float32Array(size), 'float32', dims);
     for (let i = 0; i < size; i++) {
@@ -77,8 +77,8 @@ const wait = ms => new Promise((res, rej) => {
 });
 
 const imgConfig = {
-    maxWidth: 299,
-    maxHeight: 299,
+    maxWidth: 224,
+    maxHeight: 224,
     cover: true,
     crop: true,
     canvas: true,

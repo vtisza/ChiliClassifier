@@ -6,8 +6,8 @@ import Card from '@material-ui/core/Card';
 
 const useStyles = makeStyles({
     card: {
-        width: 299,
-        height: 299,
+        width: 224,
+        height: 224,
         position: 'relative',
         display: 'flex',
         alignItems: 'center',
@@ -15,8 +15,8 @@ const useStyles = makeStyles({
         marginBottom: 10,
     },
     canvas: {
-        width: 299,
-        height: 299,
+        width: 224,
+        height: 224,
         zIndex: 0,
         position: 'absolute',
     },
@@ -42,7 +42,7 @@ export default function DropImageCard({setFile, canvasRef, fileLoaded}) {
     const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
 
     return <Card {...getRootProps()} className={classes.card}>
-        <canvas className={classes.canvas} ref={canvasRef} width={299} height={299} />
+        <canvas className={classes.canvas} ref={canvasRef} width={224} height={224} />
         <input alt="Image Dropzone" type="image" className={classes.input} {...getInputProps()} />
         <DropzoneIcon fileLoaded={fileLoaded} isDragActive={isDragActive} />
     </Card>
