@@ -56,7 +56,7 @@ function App() {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" className={classes.title}>
-                    Dog Breed Classifier
+                    Chili Pepper Classifier
                 </Typography>
             </Toolbar>
         </AppBar>
