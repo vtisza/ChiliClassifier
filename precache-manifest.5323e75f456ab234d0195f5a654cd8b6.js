@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "782ebca46eec491ed302f7bee28f9849",
+    "revision": "19d360757a25a70251ca08a0fd78c6fa",
     "url": "/ChiliClassifier/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ChiliClassifier/static/js/2.153dfeee.chunk.js"
   },
   {
-    "revision": "51782e80b288aff1d600",
-    "url": "/ChiliClassifier/static/js/main.6a8712e6.chunk.js"
+    "revision": "289fd01f5d5a298c7c97",
+    "url": "/ChiliClassifier/static/js/main.dc3aa3db.chunk.js"
   },
   {
     "revision": "3659e99fdb1c2b8b0001",
