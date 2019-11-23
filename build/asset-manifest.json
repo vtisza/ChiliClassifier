@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ChiliClassifier/static/js/main.7013da6d.chunk.js",
-    "main.js.map": "/ChiliClassifier/static/js/main.7013da6d.chunk.js.map",
-    "runtime-main.js": "/ChiliClassifier/static/js/runtime-main.f3b12f3d.js",
-    "runtime-main.js.map": "/ChiliClassifier/static/js/runtime-main.f3b12f3d.js.map",
-    "static/js/2.bc0e6b09.chunk.js": "/ChiliClassifier/static/js/2.bc0e6b09.chunk.js",
-    "static/js/2.bc0e6b09.chunk.js.map": "/ChiliClassifier/static/js/2.bc0e6b09.chunk.js.map",
+    "main.js": "/ChiliClassifier/static/js/main.33b450e2.chunk.js",
+    "main.js.map": "/ChiliClassifier/static/js/main.33b450e2.chunk.js.map",
+    "runtime-main.js": "/ChiliClassifier/static/js/runtime-main.83d4576d.js",
+    "runtime-main.js.map": "/ChiliClassifier/static/js/runtime-main.83d4576d.js.map",
+    "static/js/2.8bd42d09.chunk.js": "/ChiliClassifier/static/js/2.8bd42d09.chunk.js",
+    "static/js/2.8bd42d09.chunk.js.map": "/ChiliClassifier/static/js/2.8bd42d09.chunk.js.map",
     "index.html": "/ChiliClassifier/index.html",
-    "precache-manifest.7b62e3536daa832e54236c4bf366703f.js": "/ChiliClassifier/precache-manifest.7b62e3536daa832e54236c4bf366703f.js",
+    "precache-manifest.cee350c973cd91ac7d4d7a3a9dee0145.js": "/ChiliClassifier/precache-manifest.cee350c973cd91ac7d4d7a3a9dee0145.js",
     "service-worker.js": "/ChiliClassifier/service-worker.js",
     "static/media/chili-resnet18.onnx": "/ChiliClassifier/static/media/chili-resnet18.b9c461d0.onnx"
   },
   "entrypoints": [
-    "static/js/runtime-main.f3b12f3d.js",
-    "static/js/2.bc0e6b09.chunk.js",
-    "static/js/main.7013da6d.chunk.js"
+    "static/js/runtime-main.83d4576d.js",
+    "static/js/2.8bd42d09.chunk.js",
+    "static/js/main.33b450e2.chunk.js"
   ]
 }
