@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ChiliClassifier/precache-manifest.ccf80d5dc8fcf1e4f098ab85af102b91.js"
+  "/ChiliClassifier/precache-manifest.7b62e3536daa832e54236c4bf366703f.js"
 );
 
 self.addEventListener('message', (event) => {
