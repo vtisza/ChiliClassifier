@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b0afe1f2e265e92cc34d526725633a4",
+    "revision": "4b35af85258e0ef6b9c2eb9433252b8e",
     "url": "/ChiliClassifier/index.html"
   },
   {
-    "revision": "b955ad6637f901d7a6f0",
-    "url": "/ChiliClassifier/static/js/2.153dfeee.chunk.js"
+    "revision": "f34bc126fcd2cb4546bd",
+    "url": "/ChiliClassifier/static/js/2.aa60da8f.chunk.js"
   },
   {
-    "revision": "ff859e3bd45129a02390",
-    "url": "/ChiliClassifier/static/js/main.a322015e.chunk.js"
+    "revision": "de51feec0c68d193ab8d",
+    "url": "/ChiliClassifier/static/js/main.f9e3102b.chunk.js"
   },
   {
     "revision": "3659e99fdb1c2b8b0001",
