@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96ab92153e88c20e484d17dff2279ddc",
+    "revision": "f5f71c195aa15ddb121dc61d3f9a1e3c",
     "url": "/ChiliClassifier/index.html"
   },
   {
